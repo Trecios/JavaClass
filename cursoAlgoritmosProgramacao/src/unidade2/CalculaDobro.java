@@ -6,6 +6,7 @@ public class CalculaDobro {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Digite o seu Número");
 		double numero = teclado.nextDouble();

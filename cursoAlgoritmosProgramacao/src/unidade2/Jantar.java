@@ -9,6 +9,7 @@ public class Jantar {
 		final double taxa_garcom = 0.1;
 		double valor_jantar, valor_jantar_total;
 		
+		@SuppressWarnings("resource")
 		Scanner teclado = new Scanner(System.in);
 		
 		System.out.println("Informe o valor do jantar");
